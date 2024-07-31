@@ -1,5 +1,8 @@
+/// variable can be in letters, digits, underscores, and dollar signs
+var $c="basith"; var _unde=6564;
 // this is decleration of variable a 
 var a;
+
 //  inisatlization the value to a 
 a = "buhari";
 //   reassign the value of a 
@@ -106,3 +109,52 @@ classroom=["student",10,"teacher","basith"]
 console.log(typeof(classroom[2]))
 console.log(classroom.length);
 console.log(classroom[2]);
+
+var basith=classroom[3];
+console.log(basith);
+
+var a=5;
+// we can pass varaible to another variable as a value 
+var d=a;
+var result=a+d;
+console.log(result);
+
+var num=25;
+console.log(++num);//26
+console.log(num);//26
+console.log(++num - num);//0
+
+// function
+// A JavaScript function is a block of code designed to perform a particular task.
+//A JavaScript function is executed when "something" invokes it (calls it).
+
+// function functionName(parameter1,parameter2,parameter3){
+// return
+// }
+// functionName(arguments1,arguments2,.......)
+
+var number=4;
+var secondNumber=5;
+function add(a,b){
+    return a+b;
+}
+add(number,secondNumber);
+console.log(add(number,secondNumber))
+var result=add(number,secondNumber);
+console.log(result);
+
+
+
+
+
+
+var k=5;
+var j=4;
+var v=3;
+
+
+function mul(a,b){
+    var h=1;
+    return a*b+h
+}
+console.log(mul(10,25))
