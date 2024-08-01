@@ -157,4 +157,63 @@ function mul(a,b){
     var h=1;
     return a*b+h
 }
-console.log(mul(10,25))
+console.log(mul(10,25));
+
+// if(condtion){
+
+// }elseif(condition){
+
+// }else{
+
+// }
+
+// types of loop
+// for - loops through a block of code a number of times
+// for/in - loops through the properties of an object
+// for/of - loops through the values of an iterable object
+// while - loops through a block of code while a specified condition is true
+// do/while - also loops through a block of code while a specified condition is true
+
+// for loop
+// for(initalization,condition,updation(increment or decrement)){
+
+// }
+// print number from one to ten
+for(var i=0;i<=10;i++){
+    console.log(i);
+}
+
+// print number from 10 to 1
+for(var i=10;i>=1;i--){
+    console.log(i);
+}
+// print 2 tables till 20
+for (var i = 2; i < 20; i++) { 
+    if (i % 2 == 0) {
+        console.log(i);
+
+    } else if(i%5==0)
+    {
+        console.log("mutliply by five table"+ " " +i);
+
+    }else {
+        console.log("odd" + i);
+    }
+}
+
+// print 3 tables till 30
+for(var i=0;i<=30;i++){
+    if(i%3==0 && i != 0){
+        console.log(i);
+
+    } 
+}
+
+var rangeOfNumber=20;
+var startFrom=0;
+for(var i=rangeOfNumber;i>=startFrom;i--){
+    if(i%2==0){
+        console.log(i);
+    }
+    
+}
