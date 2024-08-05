@@ -157,6 +157,7 @@ function mul(a,b){
     var h=1;
     return a*b+h
 }
+
 console.log(mul(10,25));
 
 // if(condtion){
@@ -217,3 +218,15 @@ for(var i=rangeOfNumber;i>=startFrom;i--){
     }
     
 }
+
+
+function printRangeOfNumber(a,b){
+    for(var i=a;i<=b;i++){
+        console.log(i);
+    }
+}
+
+var star=1;
+var end=5;
+printRangeOfNumber(star,end);
+
